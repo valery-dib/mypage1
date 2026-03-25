@@ -15,7 +15,7 @@ body {
 
 h2{
     color: rgb(0, 0, 0);
-    font-size: 2vh;
+    font-size: 4vh;
     position: relative;
     font-family: myfont;
     text-align: left;
@@ -24,7 +24,7 @@ h2{
 
 h1{
     color: rgb(0, 0, 0);
-    font-size: 2vh;
+    font-size: 4vh;
     background-color: rgb(226, 56, 18);
     position:relative;
     font-family: myfont;
@@ -33,7 +33,7 @@ h1{
 
 p{
     color: rgb(54, 49, 49);
-    font-size: 1vh;
+    font-size: 2vh;
     position: relative;
     font-family: myfont;
 

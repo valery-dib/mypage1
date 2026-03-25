@@ -1,14 +1,33 @@
 
 body {
     font-family: myfont;
-    background-color: rgb(232, 199, 158);
+    background-color: rgb(238, 207, 170);
     color:black;
     text-align: left;
 }
-.button{
 
-    width: 10vw;
-     position: center;
+.medals {
+    position:fixed;
+    top:0
+    width: 100px;
+}
+
+
+h2{
+    color: rgb(54, 49, 49);
+    font-size: 2vh;
+    background-color: rgb(226, 28, 18);
+    position: relative;
+    font-family: myfont;
+}
+
+
+h1{
+    color: rgb(54, 49, 49);
+    font-size: 2vh;
+    background-color: rgb(226, 28, 18);
+    position: relative;
+    font-family: myfont;
 }
 
 p{
@@ -20,13 +39,7 @@ p{
 
 }
 
-h2{
-    color: rgb(54, 49, 49);
-    font-size: 3vh;
-    background-color: rgb(226, 77, 18);
-    position: relative;
-    font-family: myfont;
-}
+
 
 #hahn{
     position: relative;
@@ -45,3 +58,8 @@ h2{
     src: url(./fonts/Bungee-Regular.ttf);
 }
 
+.button{
+
+    width: 10vw;
+    position: center;
+}

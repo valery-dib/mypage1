@@ -1,13 +1,14 @@
 
 body {
     font-family: myfont;
-    background-color: rgb(228, 180, 121);
+    background-color: rgb(232, 199, 158);
     color:black;
-    text-align: center;
+    text-align: left;
 }
 .button{
 
     width: 10vw;
+     position: center;
 }
 
 p{
@@ -21,8 +22,8 @@ p{
 
 h2{
     color: rgb(54, 49, 49);
-    font-size: 5vh;
-    background-color: rgb(226, 18, 18);
+    font-size: 3vh;
+    background-color: rgb(226, 77, 18);
     position: relative;
     font-family: myfont;
 }

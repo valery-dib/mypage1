@@ -48,12 +48,6 @@ p{
     border: 7px solid black;
 }
 
-#container{
-    position: fixed
-    display:flex;
-    justify-content: right;
-    z-index: 100 ;
-}
 
 @font-face {
     font-family: myfont;
@@ -64,4 +58,11 @@ p{
 
     width: 10vw;
     position: center;
+}
+
+/*#container{
+    position: fixed
+    display:flex;
+    justify-content: right;
+    z-index: 100 ;
 }

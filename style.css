@@ -54,6 +54,11 @@ p{
     color: #000000;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    color: rgb(54, 49, 49);
+}
 
 #hahn{
     position: relative;

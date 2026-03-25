@@ -1,5 +1,5 @@
-h1{
-    color: rgb(188, 167, 167);
+p{
+    color: rgb(195, 41, 41);
     font-size: 10vh;
     background-color: aqua;
 
@@ -10,4 +10,9 @@ h1{
     width: 100vw;
     opacity: 50%;
     border: 7px solid black;
+}
+
+#container{
+    display:flex;
+    justify-content: left;
 }

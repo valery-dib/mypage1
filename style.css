@@ -14,7 +14,7 @@ body {
 
 
 h2{
-    color: rgb(54, 49, 49);
+    color: rgb(0, 0, 0);
     font-size: 2vh;
     position: relative;
     font-family: myfont;
@@ -23,7 +23,7 @@ h2{
 
 
 h1{
-    color: rgb(54, 49, 49);
+    color: rgb(0, 0, 0);
     font-size: 2vh;
     background-color: rgb(226, 56, 18);
     position:relative;
@@ -50,7 +50,7 @@ p{
     font-weight: bold;
 }
 .times {
-    color: #00ffcc;
+    color: #000000;
 }
 #hahn{
     position: relative;

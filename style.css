@@ -3,7 +3,7 @@ body {
     margin: 0;
     margin-right: 35%;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to left,  #111 50%, #421111);
+    background: linear-gradient(to left,  #111 50%, #641313);
     color: white;
 }
 
@@ -14,7 +14,7 @@ body {
     right: 0;
     width: 35%;
     height: 100vh;
-    background-image: url("./images/target.jpg"); /* ВСТАВЬ СВОЮ КАРТИНКУ */
+    background-image: url("./images allgemein/target.jpg"); /* ВСТАВЬ СВОЮ КАРТИНКУ */
     background-size: cover;
     background-position: center;
 }
@@ -85,12 +85,6 @@ footer {
 
 .button:hover {
     transform: scale(1.1);
-}
-
-.medals {
-    position:fixed;
-    top:0
-    width: 100px;
 }
 
 

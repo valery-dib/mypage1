@@ -1,7 +1,12 @@
+.button{
+
+    width: 10vw;
+}
+
 p{
-    color: rgb(195, 41, 41);
-    font-size: 10vh;
-    background-color: aqua;
+    color: rgb(54, 49, 49);
+    font-size: 5vh;
+    background-color: rgb(226, 18, 18);
     position: relative;
     font-family: myfont;
 

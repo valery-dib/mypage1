@@ -1,9 +1,90 @@
 
 body {
-    font-family: myfont;
-    background-color: rgb(234, 209, 179);
-    color:black;
-    text-align: left;
+    margin: 0;
+    margin-right: 35%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to left,  #111 50%, #421111);
+    color: white;
+}
+
+/* Мишень справа */
+.target-image {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 100vh;
+    background-image: url("./images/target.jpg"); /* ВСТАВЬ СВОЮ КАРТИНКУ */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Шапка */
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Секции */
+section {
+    padding: 40px;
+}
+
+/* Подзаголовки */
+h2 {
+    margin-bottom: 15px;
+}
+
+/* Лейблы */
+.label {
+    font-weight: bold;
+}
+
+/* Расписание */
+.schedule {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.times span {
+    font-weight: bold;
+}
+
+/* Список соревнований */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    transition: 0.3s;
+}
+
+li a:hover {
+    color: #f5c542;
+}
+
+/* Кнопка */
+footer {
+    text-align: center;
+    padding: 40px;
+}
+
+.button {
+    width: 120px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.1);
 }
 
 .medals {
@@ -14,7 +95,7 @@ body {
 
 
 h2{
-    color: rgb(0, 0, 0);
+    color: rgb(247, 238, 238);
     font-size: 4vh;
     position: relative;
     font-family: myfont;
@@ -23,7 +104,7 @@ h2{
 
 
 h1{
-    color: rgb(0, 0, 0);
+    color: rgb(247, 244, 244);
     font-size: 4vh;
     background-color: rgb(226, 56, 18);
     position:relative;
@@ -32,10 +113,11 @@ h1{
 }
 
 p{
-    color: rgb(37, 34, 34);
+    color: rgb(255, 254, 254);
     font-size: 2vh;
     position: relative;
     font-family: myfont;
+    text-align:left;
 
 }
 

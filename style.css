@@ -14,6 +14,13 @@ p{
 
 }
 
+h1{
+    color: rgb(54, 49, 49);
+    font-size: 5vh;
+    background-color: rgb(226, 18, 18);
+    position: relative;
+    font-family: myfont;
+
 #hahn{
     position: relative;
     width: 100vw;

@@ -49,8 +49,10 @@ p{
 }
 
 #container{
+    position: fixed
     display:flex;
     justify-content: right;
+    z-index: 100 ;
 }
 
 @font-face {

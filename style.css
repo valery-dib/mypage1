@@ -14,7 +14,7 @@ body {
     right: 0;
     width: 35%;
     height: 100vh;
-    background-image: url("./images allgemein/IMG_4194.jpeg"); /* ВСТАВЬ СВОЮ КАРТИНКУ */
+    background-image: url("./images allgemein/Valery.png"); /* ВСТАВЬ СВОЮ КАРТИНКУ */
     background-size: cover;
     background-position: center;
 }
@@ -101,7 +101,7 @@ h2{
 h1{
     color: rgb(247, 244, 244);
     font-size: 4vh;
-    background-color: rgb(226, 56, 18);
+    background-color: rgb(230, 103, 29);
     position:relative;
     font-family: myfont;
     text-align:center;
@@ -162,3 +162,5 @@ ul {
     justify-content: right;
     z-index: 100 ;
 }
+
+@media (orientation: portrait) {

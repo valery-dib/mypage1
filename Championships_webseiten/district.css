@@ -55,19 +55,22 @@ p{
 }
 
 .gallery {
-     width: calc(50% - 20px);
-     box-sizing: border-box;
-     border: 4px solid #f5c542 ;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+}
+
+
+.photo-item {
+
+     flex: 0 0 calc(50% - 20px);
+     border: 4 px solid #eeb947;
      overflow: hidden;
-     margin-bottom: 20px;
+     box-sizing: border-box;
 }
 
-.photo-item img {
 
-     width: 100%;
-     height: auto;
-     display: block;
-}
 
 @media (max-width:600px) {
      .photo-item {

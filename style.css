@@ -7,6 +7,10 @@ body {
     color: white;
 }
 
+* { cursor: url(./images allgemein/);
+}
+
+
 /* lera справа */
 .valery-image {
     position: fixed;

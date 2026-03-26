@@ -1,4 +1,14 @@
 body {
-     background: linear-gradient(to left, #641313 50%, #111 );
-
+    margin: 0;
+    margin-right: 35%;
+    font-family: myfont, sans-serif;
+    background: linear-gradient(to left,  #111 50%, #641313);
+    color: white;
 }
+
+@font-face {
+    font-family: myfont;
+    src: url(./fonts/Bungee-Regular.ttf);
+}
+}
+

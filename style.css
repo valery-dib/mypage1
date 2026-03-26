@@ -19,8 +19,6 @@ body {
     background-position: center;
 }
 
-
-}
 /* Шапка */
 header {
     text-align: center;
@@ -157,12 +155,15 @@ ul {
 
 .final-button {
     position:absolute;
-    background-color: #eeb947;
+    background-color: #eec747;
+    top: 5%;
+    left: 1%;
     height: 15%;
     cursor: pointer;
     transition: 0.3s;
     border-color: none;
-   
+    border-radius: 6%;
+    font-family: myfont;
 }
 
 .final-button:hover {

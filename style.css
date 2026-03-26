@@ -152,10 +152,7 @@ ul {
     content: "";
     position: absolute;
     inset: 0;
-    
     background-color: rgba(0, 0, 0, 0.2);
-    background-filter: blur(4%);
-    
 }
 
 .final-button {

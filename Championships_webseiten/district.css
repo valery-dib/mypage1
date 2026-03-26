@@ -46,6 +46,7 @@ p{
     position: relative;
     font-family: myfont;
     text-align:left;
+    margin: 20px;
 
 }
 
@@ -69,13 +70,20 @@ p{
      border: 4px solid #eeb947;
      overflow: hidden;
      box-sizing: border-box;
+     transition: 0.3s;
 }
 
 .photo-item img {
     width: 100%;
     height: auto;
     display: block;
-
+   
+ }
+   
+ 
+.photo-item:hover {
+    transform: scale(1.1);  
+ }  
 
 @media (max-width:600px) {
      .photo-item {

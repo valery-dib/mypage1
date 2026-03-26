@@ -7,8 +7,6 @@ body {
     color: white;
 }
 
-* { cursor: url(./images allgemein/);
-}
 
 
 /* lera справа */
@@ -74,7 +72,9 @@ li a {
 
 li a:hover {
     color: #f5c542;
+    cursor: url("./images allgemein/Arrow.png"), auto;
 }
+
 
 /* Кнопка */
 footer {
@@ -172,6 +172,7 @@ ul {
 
 .final-button:hover {
     transform: scale(1.1);
+    cursor: url("./images allgemein/Arrow.png"), auto;
 }
 
 
@@ -180,20 +181,4 @@ ul {
 
 
 
-/*#container{
-    position: fixed
-    display:flex;
-    justify-content: right;
-    z-index: 100 ;
-}
 
-@media (orientation: portrait) {
-
-
-
-
-<section class="bottom-banner">
-        <div class="photo-content">
-            <h1>Click to see the next competition</h1>
-            <a href="https://www.bogen-sbs.de/goldfleckerlturnier/" target="_blank">
-                <button>Download Schedule</button>

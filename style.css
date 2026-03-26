@@ -80,17 +80,6 @@ footer {
     padding: 40px;
 }
 
-.button {
-    width: 120px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.button:hover {
-    transform: scale(1.1);
-}
-
-
 h2{
     color: #f5c542;
     font-size: 4vh;
@@ -139,24 +128,55 @@ ul {
     color: rgb(54, 49, 49);
 }
 
-#hahn{
-    position: relative;
-    width: 100vw;
-    opacity: 50%;
-    border: 7px solid black;
-}
-
 
 @font-face {
     font-family: myfont;
     src: url(./fonts/Bungee-Regular.ttf);
 }
 
-.button{
 
-    width: 10vw;
-    position: center;
+.final-banner {
+    width: 100%;
+    height: 300px;
+
+    background-image: url("./images allgemein/Auflage.png");
+    background-size: cover;
+    background-position: center;
+
+    
+    position: relative;
+    overflow: hidden;
 }
+
+.final-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    
+    background-color: rgba(0, 0, 0, 0.2);
+    background-filter: blur(4%);
+    
+}
+
+.final-button {
+    position:absolute;
+    background-color: #eeb947;
+    height: 15%;
+    cursor: pointer;
+    transition: 0.3s;
+    border-color: #641313;
+   
+}
+
+.final-button:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
 
 /*#container{
     position: fixed
@@ -166,3 +186,12 @@ ul {
 }
 
 @media (orientation: portrait) {
+
+
+
+
+<section class="bottom-banner">
+        <div class="photo-content">
+            <h1>Click to see the next competition</h1>
+            <a href="https://www.bogen-sbs.de/goldfleckerlturnier/" target="_blank">
+                <button>Download Schedule</button>

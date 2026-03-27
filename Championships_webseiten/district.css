@@ -97,4 +97,14 @@ p{
      }
 }
 
+a {
+    color:  #f5c542;
+    margin: 15px;
+    cursor: url("./logo/Arrow.png"), pointer;
+}
+
+a:visited {
+    color: rgb(133, 132, 119);
+}
+
 

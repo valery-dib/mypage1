@@ -1,6 +1,11 @@
 
 body{
     overflow: hidden;
+    margin: 0;
+    margin-right: 35%;
+    font-family: myfont, sans-serif;
+    background: linear-gradient(to left,  #111 50%, #641313);
+    color: white;
 }
 
 #frame_container{

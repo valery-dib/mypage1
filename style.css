@@ -7,9 +7,6 @@ body {
     color: white;
 }
 
-
-
-/* lera справа */
 .valery-image {
     position: fixed;
     top: 0;
@@ -21,28 +18,25 @@ body {
     background-position: center;
 }
 
-/* Шапка */
 header {
     text-align: center;
     padding: 50px;
 }
 
-/* Секции */
 section {
     padding: 10px;
 }
 
-/* Подзаголовки */
 h2 {
     margin-bottom: 15px;
 }
 
-/* Лейблы */
+
 .label {
     font-weight: bold;
 }
 
-/* Расписание */
+
 .schedule {
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 10px;
@@ -53,7 +47,7 @@ h2 {
     font-weight: bold;
 }
 
-/* Список соревнований */
+
 ul {
     list-style:none;
     padding: 0;
@@ -76,7 +70,6 @@ li a:hover {
 }
 
 
-/* Кнопка */
 footer {
     text-align: center;
     padding: 40px;

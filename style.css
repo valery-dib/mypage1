@@ -27,31 +27,13 @@ section {
     padding: 10px;
 }
 
-h2 {
-    margin-bottom: 15px;
-}
-
-
-.label {
-    font-weight: bold;
-}
-
-
-.schedule {
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 10px;
-    margin: 20px;
-}
-
-.times span {
-    font-weight: bold;
-}
 
 
 ul {
     list-style:none;
     padding: 0;
     font-family: myfont;
+    color: rgb(54, 49, 49);
 }
 
 li {
@@ -81,6 +63,8 @@ h2{
     position: relative;
     font-family: myfont;
     text-align: left;
+    margin-bottom: 15px;
+
 }
 
 
@@ -107,21 +91,21 @@ p{
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    margin: 20px;
 }
 
+
 .label {
-    font-weight: bold;
+    font-weight: bold; 
 }
+
 .times span {
     font-weight: bold;
     color: #eeb947;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    color: rgb(54, 49, 49);
-}
 
 
 @font-face {

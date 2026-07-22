@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    margin-right: 35%;
+    font-family: myfont, sans-serif;
+    background: linear-gradient(to left,  #111 50%, #641313);
+    color: white;
+}
+
+/* lera справа */
+.valery-image {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 100vh;
+    background-image: url("logo/Valery2.png"); 
+    background-size: cover;
+    background-position: center;
+}
+/* Секции */
+section {
+    padding: 10px;
+}
+
+h2{
+    color: #f5c542;
+    font-size: 4vh;
+    position: relative;
+    font-family: myfont;
+    text-align: left;
+}
+
+
+h1{
+    color: rgb(247, 244, 244);
+    font-size: 4vh;
+    background-color: rgb(230, 29, 29);
+    position:relative;
+    font-family: myfont;
+    text-align:center;
+}
+
+p{
+    color: rgb(255, 254, 254);
+    font-size: 2vh;
+    position: relative;
+    font-family: myfont;
+    text-align:left;
+    margin: 20px;
+
+}
+
+@font-face {
+     font-family: myfont;
+     src: url(./fonts1/Bungee-Regular.ttf);
+}
+
+.gallery {
+      display: flex;
+      flex-wrap: wrap;
+      
+      justify-content: center;
+      gap: 20px;
+}
+
+
+.photo-item {
+
+     flex: 0 0 calc(50% - 20px);
+     border: 4px solid #eeb947;
+     overflow: hidden;
+     transition: 0.3s;
+     height: 300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.photo-item img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: contain;
+    cursor: url("./logo/Arrow.png"), pointer;
+}
+   
+ 
+.photo-item:hover {
+    transform: scale(1.1);  
+ }  
+
+@media (max-width:600px) {
+     .photo-item {
+          width:  100%;
+     }
+}
+
+a {
+    color:  #f5c542;
+    margin: 15px;
+    cursor: url("./logo/Arrow.png"), pointer;
+}
+
+a:visited {
+    color: rgb(133, 132, 119);
+}
+
+

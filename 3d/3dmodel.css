@@ -133,7 +133,7 @@ model-viewer {
 }
 
 model-viewer > #ar-prompt {
-  position: relative;
+  position: absolute;
   left: 50%;
   bottom: 60px;
   animation: elongate 2s infinite ease-in-out alternate;

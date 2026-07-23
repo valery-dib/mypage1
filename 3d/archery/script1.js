@@ -1,4 +1,4 @@
-console.log('script loaded'); 
+
 const viewer = document.querySelector('#viewer');
 const drawSound = document.querySelector('#drawSound');
 const hitSound = document.querySelector('#hitSound');

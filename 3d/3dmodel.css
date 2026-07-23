@@ -53,8 +53,11 @@ body {
 model-viewer {
   width: 100%;
   height: 90%;
-  background-color: #487655;
+  background-color: transparent;
+  z-index: 1;
+  overflow: hidden;
 }
+
 
 
 .progress-bar {
@@ -130,7 +133,7 @@ model-viewer {
 }
 
 model-viewer > #ar-prompt {
-  position: absolute;
+  position: relative;
   left: 50%;
   bottom: 60px;
   animation: elongate 2s infinite ease-in-out alternate;
@@ -143,4 +146,21 @@ model-viewer[ar-status="session-started"] > #ar-prompt {
 
 model-viewer > #ar-prompt > img {
   animation: circle 4s linear infinite;
+}
+
+.scene-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.blured-bg {
+  position: absolute;
+  inset:0;
+  background-image: url(tropical.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  filter: blur(12px);
+  z-index: 0;
 }

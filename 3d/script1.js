@@ -19,20 +19,28 @@ object.addEventListener("click", () => {
   
     sound.currentTime = 0;
     sound.play();
+    console.log("sound played");
 
        
     
     
 });
 
-const object = document.getElementById("bogen");
-const sound = new Audio("./archery/draw.mp3");
+const object2 = document.getElementById("bogen");
+const sound2 = new Audio("./archery/draw.mp3");
 
-object.addEventListener("click", () => {
+object2.addEventListener("click", () => {
   
+    sound2.currentTime = 0;
+    sound2.volume = 1;
+    sound2.play();
+
+    setTimeout(() => {
+
     sound.currentTime = 0;
-    sound.volume = 0.5;
     sound.play();
+    console.log("sound played");
+}, 4500);
 
 
        
@@ -40,4 +48,31 @@ object.addEventListener("click", () => {
     
 });
 
-const animations = "arrowAction";
+
+const modelViewer = document.querySelector('#bow');
+
+object2.addEventListener("click", () => {
+  
+ 
+
+modelViewer.play({repetitions: 1});
+
+
+
+       
+    
+    
+});
+
+
+
+
+ 
+
+
+
+
+
+
+
+

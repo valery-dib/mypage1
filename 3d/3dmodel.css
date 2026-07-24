@@ -20,6 +20,16 @@ h1{
     text-align:center;
 }
 
+h2{
+    color: #f5c542;
+    font-size: 4vh;
+    position: relative;
+    font-family: myfont;
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+
     p{
     color: rgb(255, 254, 254);
     font-size: 2vh;

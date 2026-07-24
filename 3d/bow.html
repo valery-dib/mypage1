@@ -13,6 +13,8 @@
     <section>
         <h1>My Bow</h1>
     </section>
+
+     
 <div class="scene-wrapper">
     <div class="blured-bg"></div>
    <model-viewer src="vals_bow.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
@@ -20,6 +22,20 @@
           <div class="update-bar"></div>
       </div>
       
+      <div class="info">
+        <h2>This is my bow</h2>
+        <ul>
+          <li>Material: Aluminum and Fiberglass</li>
+          <li>Draw Weight: 33 pounds</li>
+          <li>Distance: 70m</li>
+          <li>Use: Target Shooting</li>
+          <li>Color: Black and Red</li>
+          <li>Accessories: Arrow Rest, Stabilizer, Sight</li>
+        </ul>
+      </div>
+    </div>
+
+
       <button slot="ar-button" id="ar-button">
           View in your space
       </button>
@@ -27,6 +43,8 @@
           <img src="ar_hand_prompt.png">
       </div>
     </model-viewer>  
+
+
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js"></script>

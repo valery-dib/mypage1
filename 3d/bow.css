@@ -44,7 +44,6 @@ h2{
      font-family: myfont;
      src: url(./fonts2/Bungee-Regular.ttf);
 }
-
 :not(:defined) > * {
   display: none;
 }
@@ -67,6 +66,7 @@ model-viewer {
   z-index: 1;
   overflow: hidden;
 }
+
 
 
 .progress-bar {
@@ -120,7 +120,7 @@ model-viewer {
 }
 
 #ar-button:active {
-  background-color: #E8EAED;
+  background-color: #ede8e8;
 }
 
 #ar-button:focus {

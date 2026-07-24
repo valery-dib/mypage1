@@ -121,7 +121,7 @@ model-viewer {
 }
 
 #ar-button:active {
-  background-color: #E8EAED;
+  background-color: #ede8e8;
 }
 
 #ar-button:focus {
@@ -157,6 +157,7 @@ model-viewer[ar-status="session-started"] > #ar-prompt {
 model-viewer > #ar-prompt > img {
   animation: circle 4s linear infinite;
 }
+
 .scene-wrapper {
   position: relative;
   width: 100%;

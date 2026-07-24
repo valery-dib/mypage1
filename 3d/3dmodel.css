@@ -129,7 +129,7 @@ model-viewer {
 }
 
 #ar-button:focus-visible {
-  outline: 1px solid #4285f4;
+  outline: 1px solid #f44242;
 }
 
 @keyframes circle {
@@ -199,7 +199,7 @@ model-viewer > #ar-prompt > img {
 }
 
 .Hotspot:focus {
-  border: 4px solid rgb(0, 128, 200);
+  border: 4px solid rgb(200, 0, 0);
   height: 32px;
   outline: none;
   width: 32px;

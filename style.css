@@ -146,6 +146,7 @@ p{
     border-color: none;
     border-radius: 6%;
     font-family: myfont;
+    font-color: rgb(0, 0, 0);
 }
 
 .final-button:hover {

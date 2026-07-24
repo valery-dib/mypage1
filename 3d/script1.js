@@ -40,7 +40,7 @@ object2.addEventListener("click", () => {
     sound.currentTime = 0;
     sound.play();
     console.log("sound played");
-}, 4500);
+}, 4000);
 
 
        

@@ -1,7 +1,3 @@
-
-
-
-
 const image = document.getElementById("arrowAction");
 const sound = new Audio("draw.mp3");
 
@@ -11,4 +7,3 @@ image.addEventListener("click", () => {
         console.error("The sound could not be played:", error);
     });
 });
-

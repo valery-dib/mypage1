@@ -15,7 +15,12 @@
     </section>
 <div class="scene-wrapper">
     <div class="blured-bg"></div>
-     <model-viewer src="arrowanimation.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" autoplay>
+     <model-viewer id="bow" src="arrowanimation.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" >
+      <button  id="ziel" class="Hotspot" slot="hotspot-2" data-surface="27 0 112 107 55 -0.087 0.722 0.365" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Ziel</div>
+      </button><button id="bogen"  class="Hotspot" slot="hotspot-4" data-surface="18 0 1802 3166 3165 -1.885 80.768 -77.883" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Bogen</div>
+      </button>
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
       </div>
@@ -26,8 +31,9 @@
           <img src="ar_hand_prompt.png">
       </div>
     </model-viewer>  
-    <script src="script1.js"></script>
+    
     <!-- Loads <model-viewer> for browsers: -->
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js"></script>
+    <script type="module" src="./script1.js"></script>
 </body>
 </html>

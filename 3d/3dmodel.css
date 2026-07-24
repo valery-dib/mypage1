@@ -143,7 +143,7 @@ model-viewer {
 }
 
 model-viewer > #ar-prompt {
-  position: absolute;
+  position: relative;
   left: 50%;
   bottom: 60px;
   animation: elongate 2s infinite ease-in-out alternate;
@@ -157,7 +157,6 @@ model-viewer[ar-status="session-started"] > #ar-prompt {
 model-viewer > #ar-prompt > img {
   animation: circle 4s linear infinite;
 }
-
 .scene-wrapper {
   position: relative;
   width: 100%;
